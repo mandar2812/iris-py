@@ -29,7 +29,7 @@ setuptools.setup(
         "template": "{tag}",
         "dev_template": "{tag}.post{ccount}+git.{sha}",
         "dirty_template": "{tag}.post{ccount}+git.{sha}.dirty",
-        "starting_version": "0.0.1",
+        "starting_version": "0.1.0",
         "version_callback": None,
         "version_file": None,
         "count_commits_from_version_file": False,
