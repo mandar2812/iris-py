@@ -35,7 +35,7 @@ setuptools.setup(
         "count_commits_from_version_file": False,
     },
     setup_requires=["setuptools-git-versioning", "pytest-runner"],
-    install_requires=["numpy", "scikit-learn", "pandas", "matplotlib"],
+    install_requires=["numpy", "scikit-learn", "pandas", "matplotlib", "PyYAML"],
     extras_require={
         "dev": [
             "pytest",
