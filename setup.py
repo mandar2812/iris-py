@@ -35,11 +35,7 @@ setuptools.setup(
         "count_commits_from_version_file": False,
     },
     setup_requires=["setuptools-git-versioning"],
-    install_requires=[
-        "numpy",
-        "scikit-learn",
-        "pandas"
-    ],
+    install_requires=["numpy", "scikit-learn", "pandas", "matplotlib"],
     extras_require={
         "dev": [
             "pytest",
@@ -47,6 +43,7 @@ setuptools.setup(
             "types-setuptools",
             "types-requests",
             "types-pytz",
+            "types-PyYAML",
             "jupyter",
             "mypy",
             "black",
